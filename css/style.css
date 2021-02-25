@@ -27,12 +27,6 @@ body {
   color: var(--accent-color);
 }
 
-.link.active,
-.link.follow:hover,
-.link.follow:focus {
-  color: var(--accent-color);
-}
-
 /* =====================HEADER================= */
 
 .logo-link {
@@ -46,6 +40,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.logo-dark {
+  color: #000000
 }
 
 .navigation-item-studio {
@@ -133,6 +131,9 @@ body {
 .contact-mail:focus,
 .contact-phone:hover,
 .contact-phone:focus {
+  color: var(--accent-color);
+}
+.link-active {
   color: var(--accent-color);
 }
 
@@ -536,20 +537,20 @@ body {
 
 /* ====================FOOTER======================== */
 
-/* .logo-dark-theme {
+.logo-light {
   color: #ffffff;
-} */
-
-/* .footer {
+}
+.footer {
   position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
   top: 2097px;
-  background: #2F303A;
-} */
+  background-color: #2f303a;
+}
+
 .logo-link-footer {
-  position: absolute;
+  /* position: absolute; */
   width: 145px;
   height: 31px;
   left: 215px;
@@ -562,7 +563,7 @@ body {
 }
 
 .address-link {
-  position: absolute;
+  /* position: absolute; */
   width: 231px;
   height: 21px;
   left: 215px;
@@ -572,11 +573,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-/* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
 .address-mail {
-  position: absolute;
+  /* position: absolute; */
   width: 231px;
   height: 21px;
   left: 215px;
@@ -586,11 +587,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-/* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address-phone {
-  position: absolute;
+  /* position: absolute; */
   width: 231px;
   height: 21px;
   left: 215px;
@@ -600,6 +601,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-/* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 /* =================END FOOTER========================== */
