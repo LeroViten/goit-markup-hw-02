@@ -1,3 +1,4 @@
+  
 {
   "printWidth": 80,
   "tabWidth": 2,
@@ -7,6 +8,6 @@
   "trailingComma": "all",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "arrowParens": "always",
-  "proseWrap": "preserve"
+  "arrowParens": "avoid",
+  "proseWrap": "always"
 }
